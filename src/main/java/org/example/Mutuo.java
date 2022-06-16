@@ -1,5 +1,6 @@
 package org.example;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Mutuo {
@@ -11,5 +12,13 @@ public class Mutuo {
         this.valore = valore;
         this.scadenza = scadenza;
         this.periodicità = periodicità;
+    }
+
+    public int getRate() {
+        return 5;
+    }
+
+    public int getRateRimaste() {
+        return 2;
     }
 }
